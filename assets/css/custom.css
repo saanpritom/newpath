@@ -510,7 +510,7 @@ header.navbar .megamenu .dropdown-menu li ul li a .label {
 ------------------------------*/
 
 .jumbotron {
-	background:url(../images/pattern.png) repeat;
+	background-color: #5a201f; 
 	padding:20px 0px;
 	min-height:100px;
 	position:relative;
@@ -3035,6 +3035,7 @@ ul.blog-tags li i {
 
 /*-----My custom css ---------*/
 .panel-default > .panel-heading{
+  background: linear-gradient(to right, #a25b5b, #692e4c) repeat;
   background-color: #CB2027;
   color: white;
 }
