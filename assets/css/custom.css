@@ -12,7 +12,7 @@
 html {
     position: relative;
     min-height: 100%;
-	
+
 }
 
 body {
@@ -43,11 +43,11 @@ p {
 	font-size:13px;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
 	font-family:'Montserrat', Verdana, Geneva, sans-serif;
 }
@@ -78,7 +78,7 @@ h6 {
 	outline-offset:0;
 }
 
-.btn, 
+.btn,
 .btn:hover,
 .btn:focus {
 	color:#FFFFFF;
@@ -98,7 +98,7 @@ h6 {
 	background-color:#FFFFFF;
     color: #555555;
 }
- 
+
 .btn-normal:hover,
 .btn-normal:focus,
 .btn-normal.active,
@@ -143,12 +143,12 @@ h6 {
 	font-size:28px;
 }
 
-.alert-dismissable, 
+.alert-dismissable,
 .alert-dismissible {
 	padding-right:35px;
 }
 
-.alert-hg.alert-dismissable, 
+.alert-hg.alert-dismissable,
 .alert-hg.alert-dismissible {
 	padding-right:45px;
 }
@@ -215,7 +215,7 @@ textarea.form-control {
 	transition:all 0.3s ease;
 }
 
-#scrolltop:hover { 
+#scrolltop:hover {
 	background-color:#555555;
 	border-color:rgba(0,0,0,0.2);
 	color:#FFFFFF;
@@ -453,7 +453,7 @@ header.navbar #secondary-nav li a {
 }
 
 header.navbar #secondary-nav li a:hover {
-	text-decoration:underline;	
+	text-decoration:underline;
 }
 
 /* MEGAMENU */
@@ -511,8 +511,8 @@ header.navbar .megamenu .dropdown-menu li ul li a .label {
 
 .jumbotron {
 	background:url(../images/pattern.png) repeat;
-	padding:50px 0px;
-	min-height:400px;
+	padding:20px 0px;
+	min-height:100px;
 	position:relative;
 }
 
@@ -647,7 +647,7 @@ header.navbar .megamenu .dropdown-menu li ul li a .label {
 }
 
 .box.categories ul li i {
-	color:#BBBBBB;	
+	color:#BBBBBB;
 	position:relative;
 	top:2px;
 	width:20px;
@@ -659,7 +659,7 @@ header.navbar .megamenu .dropdown-menu li ul li a .label {
 }
 
 .posts ul li a:hover {
-	color:#333333;	
+	color:#333333;
 }
 
 .posts ul li div {
@@ -713,11 +713,11 @@ div .box.tags ul li i {
 	font-size:20px;
 	font-weight:bold;
 	margin:20px 0 15px;
-	color:#555555;
+	color: white;
 }
 
 #services p {
-	padding:0 15px;	
+	padding:0 15px;
 	line-height:22px;
 	margin:0;
 	color:#777777;
@@ -735,13 +735,13 @@ div .box.tags ul li i {
 	border-top:0;
 	border-right:0;
 	border-radius:0;
-	border-color:#E5E5E5;	
+	border-color:#E5E5E5;
 	color:#555555;
-	font-weight:bold;	
+	font-weight:bold;
 }
 
 #slideshow-links .nav-tabs > li:last-child > a {
-	border-right:1px solid #E5E5E5;	
+	border-right:1px solid #E5E5E5;
 }
 
 #slideshow-links .nav-tabs > li > a:hover {
@@ -948,7 +948,7 @@ div .box.tags ul li i {
 	position:relative;
 	background-color:#F5F5F5;
 }
-	
+
 #team .team-member .overlay-wrapper2 .overlay {
     background-color:rgba(0, 0, 0, 0.7);
 	top:10px;
@@ -1095,27 +1095,27 @@ footer.navbar ul li a {
 
 /* CHECKBOX */
 
-.checkbox input[type=checkbox] {  
-    display:none;  
+.checkbox input[type=checkbox] {
+    display:none;
 }
 
-.checkbox > label {  
+.checkbox > label {
     padding-left:25px;
 	font-weight:bold;
 	color:#333333;
 	font-size:13px;
-} 
+}
 
-.checkbox > label:before {  
-    content:"";  
-    width:18px;  
-    height:18px;  
-    position:absolute;  
-    left:0;   
+.checkbox > label:before {
+    content:"";
+    width:18px;
+    height:18px;
+    position:absolute;
+    left:0;
    	border:1px solid #DDDDDD;
 	background-color:#FCFCFC;
 	box-shadow:0 0 2px 1px rgba(0,0,0,0.05) inset
-}  
+}
 
 .checkbox > input[type=checkbox]:checked + label:before {
 	display: inline-block;
@@ -1123,8 +1123,8 @@ footer.navbar ul li a {
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    content:"\f00c"; 
-	padding-top:2px;  
+    content:"\f00c";
+	padding-top:2px;
     text-align:center;
 }
 
@@ -1226,7 +1226,7 @@ footer.navbar ul li a {
 
 #faq .panel-title a.collapsed:before {
 	content:"\f067";
-	color:#666666;
+  color: white;
 }
 
 #faq .panel-collapse {
@@ -1303,7 +1303,7 @@ footer.navbar ul li a {
 }
 
 .blog-post p img {
-	max-width:200px;	
+	max-width:200px;
 }
 
 .blog-post p img.pull-right {
@@ -1374,7 +1374,7 @@ footer.navbar ul li a {
 .blog p img {
 	max-width:300px;
 	border:3px solid #BBBBBB;
-	padding:5px;	
+	padding:5px;
 }
 
 .blog p img.pull-right {
@@ -1539,7 +1539,7 @@ ul.blog-tags li i {
 ------------------------------*/
 
 #recent-posts {
-	
+
 }
 
 .recent-post h4 {
@@ -1720,9 +1720,9 @@ ul.blog-tags li i {
 }
 
 .jumbotron-carousel ul li:before {
-	content:"";  
-    width:14px;  
-    height:4px;  
+	content:"";
+    width:14px;
+    height:4px;
     position:absolute;
 	top:50%;
 	margin-left:-22px;
@@ -1966,7 +1966,7 @@ ul.blog-tags li i {
 }
 
 .project-feature ul {
-	
+
 }
 
 .project-feature ul li {
@@ -2090,7 +2090,7 @@ ul.blog-tags li i {
 }
 
 #coming-soon .input-group .form-control:focus {
-	
+
 }
 
 #coming-soon .input-group .btn {
@@ -2123,71 +2123,71 @@ ul.blog-tags li i {
 	.jumbotron h2 {
 		font-size:30px;
 	}
-	
+
 	.jumbotron h3 {
 		font-size:16px;
 	}
-		
+
 	#slideshow ul li {
 		font-size:24px;
 		line-height:45px;
 	}
-	
+
 	#team .team-member .overlay-wrapper2 .overlay {
 		height:17%;
 	}
-	
+
 	.portfolio-wrapper .portfolio-item h4 {
 		min-height:72px;
-	}	
-	
+	}
+
 	.portfolio-item.single .portfolio-body {
 		padding:0 50px;
 	}
-	
+
 	#homepage-1-carousel .slide-1 {
 		background-position:0;
 	}
-	
+
 	#homepage-1-carousel .slide-1 h2 {
 		font-size:100px;
 	}
-	
+
 	#homepage-1-carousel .slide-1 h3 {
 		font-size:30px;
 		letter-spacing:4px;
 	}
-	
+
 	#homepage-1-carousel .slide-3 h2 {
 		font-size:50px;
 	}
-	
+
 	.jumbotron-video h2 {
 		font-size:100px;
 	}
-	
+
 	.jumbotron-video h3 {
 		font-size:30px;
 		letter-spacing:4px;
 	}
-	
+
 	.jumbotron-project {
 		background-position:0 -200px;
 	}
-	
+
 	.jumbotron-project h2 {
 		font-size:50px;
 	}
-	
+
 	.jumbotron-event h2 {
 		font-size:60px;
 	}
-	
+
 	#coming-soon h2 {
 		font-size:100px;
 		line-height:110px;
 	}
-	
+
 	#coming-soon p {
 		font-size:36px;
 	}
@@ -2212,150 +2212,150 @@ ul.blog-tags li i {
 		height:40px;
 		padding-top:9px;
 	}
-	
+
 	.jumbotron h2 {
 		font-size:25px;
 	}
-	
+
 	.jumbotron h3 {
 		font-size:16px;
 	}
-	
+
 	.jumbotron .btn {
 		padding:6px 10px;
 		margin-right:10px;
 		font-size:14px;
 	}
-	
+
 	#slideshow ul li {
 		font-size:22px;
 		line-height:35px;
 	}
-	
+
 	#team .team-member .overlay-wrapper2 .overlay {
 		height:20%;
 	}
-	
+
 	#team .team-member .overlay-wrapper2 .overlay i {
 		font-size:14px;
 	}
-	
+
 	#reference {
 		min-height:430px;
 	}
-	
-	#blog-timeline h2, 
+
+	#blog-timeline h2,
 	#blog-item h2 {
 		font-size:30px;
 	}
-	
+
 	.blog-post p img {
 		max-width:100%;
 		margin-bottom:10px;
 	}
-	
+
 	.portfolio-wrapper .portfolio-item {
 		min-height:195px;
 	}
-	
+
 	.portfolio-wrapper .portfolio-item h4 {
 		min-height:72px;
 	}
-	
+
 	.portfolio-item.single .portfolio-body {
 		padding:0;
 	}
-	
+
 	.jumbotron-carousel .btn {
 		padding:10px 15px;
 		font-size:16px;
 	}
-	
+
 	#homepage-1-carousel .slide-1 {
 		background-position:0;
 	}
-	
+
 	#homepage-1-carousel .slide-1 h2 {
 		font-size:80px;
 		margin-top:140px;
 	}
-	
+
 	#homepage-1-carousel .slide-1 h3 {
 		font-size:25px;
 		letter-spacing:3px;
 		margin-bottom:30px;
 	}
-	
+
 	#homepage-1-carousel .slide-2 h2 {
 		margin:150px 0 20px;
 		font-size:40px;
 	}
-	
+
 	#homepage-1-carousel .slide-2 ul li {
 		font-size:24px;
 	}
-	
+
 	#homepage-1-carousel .slide-3 h2 {
 		font-size:44px;
 		margin:140px 0 20px;
 	}
-	
+
 	#homepage-1-carousel .slide-3 p {
 		font-size:24px;
 		line-height:34px;
 	}
-	
+
 	.jumbotron-video h2 {
 		font-size:80px;
 		margin-top:140px;
 	}
-	
+
 	.jumbotron-video h3 {
 		font-size:25px;
 		letter-spacing:3px;
 		margin-bottom:30px;
 	}
-	
+
 	.jumbotron-project {
 		background-position:0 -100px;
 	}
-	
+
 	.jumbotron-project h2 {
 		font-size:40px;
 	}
-	
+
 	.jumbotron-project p {
 		margin:0 0 30px;
 		font-size:20px;
 		line-height:30px;
 	}
-		
+
 	#about-project .project-feature .row > div:first-child img {
 		margin-bottom:30px;
 	}
-	
+
 	.jumbotron-event {
 		background-position:0 -100px;
 	}
-	
+
 	.jumbotron-event h2 {
 		font-size:50px;
 	}
-	
+
 	.jumbotron-event .countdown div {
 		width:120px;
 		margin:0 10px;
 	}
-	
+
 	.jumbotron-event .countdown div span.countdown-number {
 		font-size:70px;
 	}
-	
+
 	#coming-soon h2 {
 		font-size:90px;
 		line-height:100px;
 	}
-	
+
 	#coming-soon p {
 		font-size:32px;
 	}
@@ -2369,33 +2369,33 @@ ul.blog-tags li i {
 	body {
 		margin-bottom:0;
 	}
-	
+
 	header.navbar-default .navbar-nav > li > ul.dropdown-menu {
 		box-shadow:none;
 	}
-	
+
 	header.navbar #secondary-nav {
 		margin:15px 0 0;
 	}
-	
+
 	header.navbar #secondary-nav li {
 		margin-right:0;
 	}
-	
+
 	header.navbar #secondary-nav li a {
 		background-color:#666666;
 		color:#FFFFFF;
 		padding:5px 10px;
 		margin-bottom:10px;
 	}
-	
+
 	header.navbar .navbar-toggle {
 		border:2px solid #DDDDDD;
 		margin-top: 20px;
 		padding:5px 10px;
 		border-radius:0;
 	}
-	
+
 	header.navbar .navbar-collapse {
 		background-color:#FFFFFF;
 		box-shadow: none;
@@ -2405,27 +2405,27 @@ ul.blog-tags li i {
 		padding:0;
 		max-height:300px;
 	}
-	
+
 	header.navbar .navbar-collapse .nav {
 		margin:0;
 	}
-	
+
 	header.navbar-default .navbar-nav > li {
 		margin-right:0;
 	}
-	
+
 	header.navbar-default .navbar-nav > li > a {
 		font-size:16px;
 		font-weight:600;
 	}
-	
-	header.navbar-default .navbar-nav > li.open > a, 
-	header.navbar-default .navbar-nav > li.open > a:hover, 
+
+	header.navbar-default .navbar-nav > li.open > a,
+	header.navbar-default .navbar-nav > li.open > a:hover,
 	header.navbar-default .navbar-nav > li.open > a:focus {
 		background-color:#FFFFFF;
 		color:#555555;
 	}
-	
+
 	header.navbar-default .navbar-nav > li > ul.dropdown-menu {
 		display: block;
 		position: static;
@@ -2435,291 +2435,291 @@ ul.blog-tags li i {
 		background-color: transparent;
 		box-shadow: none;
 	}
-	
+
 	.jumbotron {
 		padding:10px 0px;
 		text-align:center;
 	}
-	
+
 	.jumbotron h2 {
 		font-size:30px;
 		margin-bottom:20px;
 	}
-	
+
 	.jumbotron h3 {
 		color:#888888;
 		font-size:18px;
 		margin-bottom:30px;
 		line-height:27px;
 	}
-		
+
 	.jumbotron .btn {
 		padding:10px 15px;
 		margin-right:5px;
 		font-size:14px;
 	}
-	
+
 	.jumbotron img {
 		margin-top:50px;
 	}
-	
+
 	.content-item h2 {
 		font-size:25px;
 		line-height:35px;
 	}
-	
+
 	.owl-carousel .owl-controls .owl-nav {
 		display:none;
 	}
-	
+
 	#slideshow-links .nav-tabs > li.active > a > span {
 		display:none;
 	}
-	
+
 	#slideshow-links .nav-tabs > li > a {
-		border-right:1px solid #E5E5E5;	
+		border-right:1px solid #E5E5E5;
 	}
-	
+
 	#slideshow ul li {
 		font-size:18px;
 		line-height:35px;
 	}
-	
+
 	.pricing-plan {
 		margin-bottom:20px;
 	}
-	
+
 	.pricing-plan:hover {
 		top:0;
 	}
-	
+
 	#reference-carousel {
 		padding:0;
 	}
-	
+
 	#team .team-member {
 		box-shadow:none;
 		text-align:center;
 	}
-	
+
 	#team img {
 		border:0;
 		margin:0 auto;
 	}
-	
+
 	footer.navbar {
 		padding:2px 0;
 		text-align:center;
 		position:static;
 		height:auto;
 	}
-	
+
 	footer.navbar ul {
 		float:none;
 		margin:10px 0 5px;
 	}
-	
+
 	.content-item {
 		padding:15px 0;
 	}
-	
+
 	.content-headline h3 {
 		display:none;
 	}
-	
+
 	.form-wrapper {
 		margin-top:20px;
 	}
-	
+
 	header.navbar-default .navbar-nav > li > a:hover {
 		background-color:transparent;
 	}
-	
+
 	#map-canvas {
 	  height:220px;
 	}
-	
+
 	#services p {
 		margin-bottom:20px;
 	}
-	
+
 	.blog-post p img,
 	.blog p img {
 		max-width:100%;
 		margin-bottom:10px;
 	}
-	
+
 	#blog-timeline .sidebar,
 	#blog-item .sidebar {
 		margin-top:40px;
 	}
-	
+
 	#error {
 		padding:50px 0;
 	}
-	
+
 	#gallery-item h2 {
 		margin-top:20px;
 	}
-	
+
 	.portfolio-wrapper .portfolio-item {
 		width:50%;
 	}
-	
+
 	.portfolio-wrapper .portfolio-item h4 {
 		min-height:72px;
 	}
-	
+
 	.portfolio-item.single .portfolio-body {
 		padding:0;
 	}
-	
+
 	#portfolio-carousel {
 		padding:0;
 	}
-	
+
 	.portfolio-body p {
 		font-size:16px;
 		line-height:26px;
 	}
-	
+
 	#testimonials-carousel {
 		margin:90px 0 20px;
 	}
-	
+
 	.recent-post {
 		margin-bottom:30px;
 		text-align:center;
 	}
-	
+
 	.jumbotron-carousel {
 		padding:0;
 		min-height:0;
 	}
-	
+
 	.jumbotron-carousel .owl-carousel .slide-body {
 		padding: 0 15px;
 	}
-	
+
 	.jumbotron-carousel h3 {
 		color:#FFFFFF;
 	}
-	
+
 	.jumbotron-carousel .owl-carousel .item {
 		height:300px!important;
 	}
-	
+
 	.jumbotron-video {
 		height:300px;
 	}
-	
+
 	#homepage-1-carousel .slide-1 {
 		background-position:0;
 	}
-	
+
 	#homepage-1-carousel .slide-1 h2 {
 		font-size:80px;
 		margin-top:45px;
 	}
-	
+
 	#homepage-1-carousel .slide-1 h3 {
 		font-size:25px;
 		letter-spacing:3px;
 		margin-bottom:30px;
 	}
-	
+
 	#homepage-1-carousel .slide-2 {
 		text-align:center;
 	}
-	
+
 	#homepage-1-carousel .slide-2 h2 {
 		font-size:40px;
 		margin-top:45px;
 	}
-	
+
 	#homepage-1-carousel .slide-2 ul li {
 		font-size:24px;
 	}
-	
+
 	#homepage-1-carousel .slide-2 ul li:before {
 		display:none;
 	}
-	
+
 	#homepage-1-carousel .slide-3 h2 {
 		font-size:44px;
 		margin-top:44px;
 	}
-	
+
 	#homepage-1-carousel .slide-3 p {
 		font-size:24px;
 		line-height:34px;
 	}
-	
+
 	.jumbotron-video h2 {
 		font-size:80px;
 		margin-top:45px;
 	}
-	
+
 	.jumbotron-video h3 {
 		font-size:25px;
 		letter-spacing:3px;
 		margin-bottom:30px;
 	}
-	
+
 	.jumbotron-project {
 		background-position:0;
 		height:350px;
 	}
-	
+
 	.jumbotron-project h2 {
 		font-size:50px;
 	}
-	
+
 	.jumbotron-project p {
 		font-size:24px;
 		line-height:34px;
 	}
-	
+
 	#about-project .project-feature .row > div:first-child img {
 		margin-bottom:30px;
 	}
-	
+
 	.jumbotron-event {
 		background-position:0;
 	}
-	
+
 	.jumbotron-event h2 {
 		font-size:40px;
 		margin:90px 0 50px;
 	}
-	
+
 	.jumbotron-event .countdown div {
 		width:80px;
 		margin:0 10px;
 	}
-	
+
 	.jumbotron-event .countdown div span.countdown-number {
 		font-size:50px;
 	}
-	
+
 	.jumbotron-event .countdown div span.countdown-title {
 		font-size:16px;
 	}
-	
+
 	#event-info {
 		padding-bottom:20px;
 	}
-	
+
 	.event-info-item {
 		margin-bottom:30px;
 	}
-	
+
 	#coming-soon h2 {
 		font-size:90px;
 		line-height:100px;
 		margin-top:0;
 	}
-	
+
 	#coming-soon p {
 		font-size:32px;
 		line-height:42px;
@@ -2735,73 +2735,73 @@ ul.blog-tags li i {
 		font-size:64px;
 		margin-top:55px;
 	}
-	
+
 	#homepage-1-carousel .slide-1 h3 {
 		font-size:21px;
 		letter-spacing:2px;
 	}
-	
+
 	#homepage-1-carousel .slide-2 h2 {
 		font-size:30px;
 		margin-top:60px;
 	}
-	
+
 	#homepage-1-carousel .slide-2 ul li {
 		font-size:20px;
 	}
-	
+
 	#homepage-1-carousel .slide-3 h2 {
 		font-size:32px;
 		margin-top:60px;
 	}
-	
+
 	#homepage-1-carousel .slide-3 p {
 		font-size:20px;
 		line-height:30px;
 	}
-	
+
 	.jumbotron-video h2 {
 		font-size:64px;
 		margin-top:55px;
 	}
-	
+
 	.jumbotron-video h3 {
 		font-size:21px;
 		letter-spacing:2px;
 	}
-	
+
 	.jumbotron-project h2 {
 		font-size:36px;
 	}
-	
+
 	.jumbotron-project p {
 		font-size:18px;
 		line-height:28px;
 	}
-	
+
 	.jumbotron-event h2 {
 		font-size:30px;
 		margin:90px 0 50px;
 	}
-	
+
 	.jumbotron-event .countdown div {
 		width:70px;
 		margin:0 3px;
 	}
-	
+
 	.jumbotron-event .countdown div span.countdown-number {
 		font-size:40px;
 	}
-	
+
 	.jumbotron-event .countdown div span.countdown-title {
 		font-size:14px;
 	}
-	
+
 	#coming-soon h2 {
 		font-size:80px;
 		line-height:90px;
 	}
-	
+
 	#coming-soon p {
 		font-size:28px;
 		line-height:38px;
@@ -2812,12 +2812,12 @@ ul.blog-tags li i {
 	#testimonials-carousel .item .row > div:first-child {
 		display:none;
 	}
-	
+
 	#testimonials-carousel .item .row > div:last-child {
 		width:100%;
 		float:none;
 	}
-	
+
 	#testimonials-carousel .item p,
 	#testimonials-carousel .item h4,
 	#testimonials-carousel .item span {
@@ -2832,120 +2832,120 @@ ul.blog-tags li i {
 		font-size:14px;
 		line-height:1.42857143;
 	}
-	
+
 	.timeline {
 		border-left:0;
 		margin-left:0;
 		padding-left:0;
 	}
-	
+
 	.blog-post .date-xs {
 		display:block;
 		font-weight:bold;
 		margin-bottom:10px;
 		color:#666666;
 	}
-	
+
 	.blog-post .blog-info {
 		display:none;
 	}
-	
+
 	#comments .media img {
 		max-width:64px;
 	}
-	
+
 	#comments .media > .pull-left {
 		margin-right:10px;
 	}
-	
+
 	#team .row > div,
 	#gallery .overlay-wrapper,
 	#statistics .row > div {
 		width:100%;
 		float:none;
 	}
-	
+
 	#gallery .overlay-wrapper {
 		margin-bottom:10px;
 	}
-	
+
 	#gallery-item h2 {
 		font-size:20px;
 	}
-	
+
 	.portfolio-wrapper .portfolio-item {
 		width:100%;
 	}
-	
+
 	.portfolio-wrapper .portfolio-item h4 {
 		min-height:0;
 	}
-	
+
 	#homepage-1-carousel .slide-1 h2 {
 		font-size:56px;
 		margin-top:60px;
 	}
-	
+
 	#homepage-1-carousel .slide-1 h3 {
 		font-size:18px;
 	}
-	
+
 	#homepage-1-carousel .slide-2 h2 {
 		margin-top:50px;
 	}
-	
+
 	#homepage-1-carousel .slide-3 h2 {
 		font-size:22px;
 		margin-top:65px;
 	}
-	
+
 	#homepage-1-carousel .slide-3 p {
 		font-size:16px;
 		line-height:26px;
 	}
-	
+
 	.jumbotron-video h2 {
 		font-size:56px;
 		margin-top:60px;
 	}
-	
+
 	.jumbotron-video h3 {
 		font-size:18px;
 	}
-	
+
 	.jumbotron-project h2 {
 		font-size:30px;
 	}
-	
+
 	.jumbotron-project p {
 		font-size:16px;
 		line-height:26px;
 	}
-	
+
 	.jumbotron-event h2 {
 		font-size:30px;
 		line-height:40px;
 		margin:50px 0 30px;
 	}
-	
+
 	.jumbotron-event .countdown div {
 		margin-bottom:10px;
 		width:80px;
 	}
-	
+
 	.jumbotron-event .countdown div span.countdown-number {
 		font-size:44px;
 	}
-	
+
 	.jumbotron-event .countdown div span.countdown-title {
 		font-size:14px;
 	}
-	
+
 	#coming-soon h2 {
 		font-size:60px;
 		line-height:70px;
 	}
-	
+
 	#coming-soon p {
 		font-size:24px;
 		line-height:34px;
@@ -2957,77 +2957,109 @@ ul.blog-tags li i {
 		display:block;
 		margin:0 0 10px;
 	}
-	
+
 	#slideshow .tab-pane .row > div.col-xs-6 {
 		width:100%;
 		margin-bottom:10px;
 	}
-	
+
 	.blog-post {
 		padding:5px 10px;
 	}
-	
+
 	ul.blog-detail li {
 		font-size:13px;
 	}
-	
+
 	#comments .media > .pull-left {
 		display:none;
 	}
-	
+
 	#homepage-1-carousel .slide-1 h2 {
 		font-size:40px;
 		margin-top:65px;
 	}
-	
+
 	#homepage-1-carousel .slide-1 h3 {
 		font-size:16px;
 		letter-spacing:0;
 	}
-	
+
 	#homepage-1-carousel .slide-3 h2 {
 		font-size:20px;
 		margin-top:75px;
 	}
-	
+
 	#homepage-1-carousel .slide-3 p {
 		font-size:14px;
 		line-height:24px;
 	}
-	
+
 	.jumbotron-video h2 {
 		font-size:40px;
 		margin-top:65px;
 	}
-	
+
 	.jumbotron-video h3 {
 		font-size:16px;
 		letter-spacing:0;
 	}
-		
+
 	.jumbotron-project h2 {
 		margin-top:40px;
 		font-size:24px;
 	}
-	
+
 	.jumbotron-project p {
 		font-size:14px;
 		line-height:24px;
 	}
-	
+
 	#coming-soon h2 {
 		font-size:50px;
 		line-height:60px;
 	}
-	
+
 	#coming-soon p {
 		font-size:20px;
 		line-height:30px;
 	}
 }
 
-@media (max-width:320px) {	
+@media (max-width:320px) {
 	#comments .media img {
 		max-width:64px;
 	}
+}
+
+
+/*-----My custom css ---------*/
+.panel-default > .panel-heading{
+  background-color: #CB2027;
+  color: white;
+}
+
+.inner-courses{
+  position: relative;
+  margin-right: 40px;
+  list-style: none;
+}
+
+.inner-courses-list{
+
+  margin: 5px;
+  border: 1px solid transparent;
+  padding-right: 3px;
+  padding-left: 3px;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #cccccc;
+}
+
+.inner-courses-list h5{
+  font-weight: bold;
+}
+
+.inner-courses-list a:hover{
+  color: black;
 }
