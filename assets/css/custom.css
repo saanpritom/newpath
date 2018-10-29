@@ -510,7 +510,7 @@ header.navbar .megamenu .dropdown-menu li ul li a .label {
 ------------------------------*/
 
 .jumbotron {
-	background-color: #5a201f; 
+	background-color: #5a201f;
 	padding:20px 0px;
 	min-height:100px;
 	position:relative;
@@ -3063,4 +3063,27 @@ ul.blog-tags li i {
 
 .inner-courses-list a:hover{
   color: black;
+}
+
+
+/*custom video modal for lectures */
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
 }
